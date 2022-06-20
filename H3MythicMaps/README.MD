@@ -1,0 +1,1 @@
+# Place Halo 3 Mythic Map Files in Here.
