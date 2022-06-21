@@ -89,9 +89,40 @@ savetagchanges
 exit
 opencachefile "../H3Maps/mainmenu.map"
 porttag *.scnr
+porttag replace single ui\halox\pregame_lobby\difficulty_large_ui.bitm
+porttag replace single ui\halox\pregame_lobby\selection\films_ui.bitm
 exit
 updatemapfilesalt "../H3Maps/info"
 rescalegui 1.6666667
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[0].guirenderblock.bounds720p 0 0 0 0
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[1].guirenderblock.bounds720p 43 0 0 0
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[2].guirenderblock.bounds720p 86 0 0 0
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[3].guirenderblock.bounds720p 129 0 0 0
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[4].guirenderblock.bounds720p 172 0 0 0
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[5].guirenderblock.bounds720p 215 0 0 0
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[6].guirenderblock.bounds720p 258 0 0 0
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[7].guirenderblock.bounds720p 301 0 0 0
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[8].guirenderblock.bounds720p 344 0 0 0
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[9].guirenderblock.bounds720p 387 0 0 0
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[10].guirenderblock.bounds720p 430 0 0 0
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[11].guirenderblock.bounds720p 473 0 0 0
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[12].guirenderblock.bounds720p 516 0 0 0
+setfield groupwidgets[1].definition.listwidgets[0].definition.items[0].guirenderblock.bounds720p 0 0 0 0
+setfield groupwidgets[1].definition.listwidgets[0].definition.items[1].guirenderblock.bounds720p 43 0 0 0
+setfield groupwidgets[1].definition.listwidgets[0].definition.items[2].guirenderblock.bounds720p 86 0 0 0
+setfield groupwidgets[1].definition.listwidgets[0].definition.items[3].guirenderblock.bounds720p 129 0 0 0
+setfield groupwidgets[1].definition.listwidgets[0].definition.items[4].guirenderblock.bounds720p 172 0 0 0
+setfield groupwidgets[1].definition.listwidgets[0].definition.items[5].guirenderblock.bounds720p 215 0 0 0
+setfield groupwidgets[1].definition.listwidgets[0].definition.items[6].guirenderblock.bounds720p 258 0 0 0
+setfield groupwidgets[1].definition.listwidgets[0].definition.items[7].guirenderblock.bounds720p 301 0 0 0
+setfield groupwidgets[1].definition.listwidgets[0].definition.items[8].guirenderblock.bounds720p 344 0 0 0
+setfield groupwidgets[1].definition.listwidgets[0].definition.items[9].guirenderblock.bounds720p 387 0 0 0
+setfield groupwidgets[1].definition.listwidgets[0].definition.items[10].guirenderblock.bounds720p 430 0 0 0
+setfield groupwidgets[1].definition.listwidgets[0].definition.items[11].guirenderblock.bounds720p 473 0 0 0
+setfield groupwidgets[1].definition.listwidgets[0].definition.items[12].guirenderblock.bounds720p 516 0 0 0
+savetagchanges
+exit
 edittag ui\halox\main_menu\main_menu.gui_screen_widget_definition
 setfield scriptindex 47
 savetagchanges
