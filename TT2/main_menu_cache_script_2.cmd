@@ -91,6 +91,7 @@ opencachefile "../H3Maps/mainmenu.map"
 porttag *.scnr
 exit
 updatemapfilesalt "../H3Maps/info"
+rescalegui 1.6666667
 edittag ui\halox\main_menu\main_menu.gui_screen_widget_definition
 setfield scriptindex 47
 savetagchanges
