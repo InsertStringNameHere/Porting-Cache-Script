@@ -40,7 +40,7 @@ IF ERRORLEVEL 1 GOTO H3
 
 :H3
 ECHO Porting Halo 3 Main Menu....
-cd ../../TT2
+cd ../TT2
 Type main_menu_cache_script_2.cmd | TagTool.exe ../MM/tags.dat
 cd ../TT1
 Type main_menu_cache_script_3.cmd | TagTool.exe ../MM/tags.dat
