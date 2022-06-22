@@ -169,13 +169,4 @@ exit
 exit
 savetagchanges
 exit
-edittag ui\halox\main_menu\strings.unic
-setstring english multiplayer "CUSTOM GAMES"
-setstring english mapeditor "FORGE"
-savetagchanges
-exit
-edittag ui\halox\start_menu\panes\settings\strings.unic
-setstring english appearance "CUSTOMIZATION"
-savetagchanges
-exit
 quit
