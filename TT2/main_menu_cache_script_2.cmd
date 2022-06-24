@@ -250,6 +250,24 @@ setfield groupwidgets[1].definition.listwidgets[0].definition.items[11].guirende
 setfield groupwidgets[1].definition.listwidgets[0].definition.items[12].guirenderblock.bounds720p 516 0 0 0
 savetagchanges
 exit
+edittag ui\halox\pregame_lobby\selection\lock.bitmap
+importbitmap 0 "../DDS/UI/lock.dds"
+savetagchanges
+exit
+edittag ui\halox\pregame_lobby\selection\subitem.skn3
+setfield bitmapwidgets[1].definition.flags scaletofitbounds
+setfield bitmapwidgets[1].definition.guirenderblock.bounds720p 3 316 37 344
+savetagchanges
+exit
+edittag ui\halox\pregame_lobby\switch_lobby\arrow_ui.bitmap
+importbitmap 0 "../DDS/UI/arrow_ui.dds"
+savetagchanges
+exit
+edittag ui\halox\pregame_lobby\selection\category.skn3
+setfield bitmapwidgets[2].definition.flags scaletofitbounds
+setfield bitmapwidgets[2].definition.guirenderblock.bounds720p 3 388 37 404
+savetagchanges
+exit
 edittag ui\halox\main_menu\main_menu.gui_screen_widget_definition
 setfield scriptindex 47
 savetagchanges
