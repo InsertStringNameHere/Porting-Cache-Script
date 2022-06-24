@@ -452,7 +452,7 @@ nametag 0x0A7B ui\halox\postgame_lobby\progress_30
 nametag 0x0A7E ui\halox\global_animations\animations\delayd_crossfade_out
 nametag 0x0A7F ui\halox\global_animations\animations\delayd_crossfade_in
 nametag 0x0A89 ui\halox\global_animations\animation_collections\hidden
-nametag 0x0A8A ui\halox\common\common_bitmaps\white_50
+nametag 0x0A8A ui\halox\game_details\list_hilite_ui
 nametag 0x0A93 ui\halox\matchmaking\match_found_constants
 nametag 0x0A9B ui\halox\matchmaking\searching_constants
 nametag 0x0AA7 ui\halox\matchmaking\animations\ping_ambient
@@ -860,6 +860,7 @@ nametag 0x148F sound\materials\tough\tough_organic_wood_tree_dynamic\organic_woo
 nametag 0x1490 sound\materials\tough\tough_organic_wood_tree_dynamic\organic_wood_tree_dyn_looping\organic_wood_tree_dyn_looping\alt_loop
 nametag 0x1491 sound\materials\gear\soccer_ball\tire_rolling_soccer_ball\tire_looping_soft_surface\loop
 nametag 0x1492 sound\materials\gear\soccer_ball\tire_rolling_soccer_ball\tire_looping_soft_surface\alt_loop
+nametag 0x15A5 objects\multi\vip\vip_boundary
 nametag 0x15A8 objects\equipment\tripmine\fx\detonation
 nametag 0x15A9 objects\equipment\tripmine\fx\detonation
 nametag 0x15AA sound\game_sfx\multiplayer\transport
@@ -1649,12 +1650,10 @@ nametag 0x573B levels\multi\s3d_edge\bitmap\gfxt
 nametag 0x573C levels\multi\deadlock\bitmap\gfxt
 nametag 0x573D levels\multi\guardian\bitmap\gfxt
 nametag 0x573E levels\multi\s3d_avalanche\bitmap\gfxt
-nametag 0x15A5 objects\multi\vip\vip_boundary
 deletetag 0x028A
 deletetag 0x028C
 deletetag 0x0A12
 deletetag 0x0A13
-deletetag 0x0A8A
 deletetag 0x0AB2
 deletetag 0x0AF9
 deletetag 0x12B9
@@ -1730,12 +1729,6 @@ exit
 edittag 0x09F6
 setfield unknown 0x086C
 setfield unknown2 0x086C
-savetagchanges
-exit
-edittag 0x0A88
-setfield bitmapwidgets[0].bitmap 0x08BE
-setfield bitmapwidgets[1].bitmap 0x08BE
-setfield bitmapwidgets[19].bitmap 0x08BE
 savetagchanges
 exit
 edittag 0x028E
