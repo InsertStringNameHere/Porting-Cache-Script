@@ -35,7 +35,7 @@ ECHO What Main Menu Would You Like to Port?
 ECHO 1.Halo 3 Main Menu
 ECHO.
 
-CHOICE /C 123 /M "Enter your choice:"
+CHOICE /C 1 /M "Enter your choice:"
 IF ERRORLEVEL 1 GOTO H3
 
 :H3
