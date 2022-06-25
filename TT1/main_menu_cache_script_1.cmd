@@ -593,7 +593,7 @@ nametag 0x0AF2 ui\halox\campaign\glowin_red_eyes_ui
 nametag 0x0AF3 ui\halox\campaign\campaign_settings\dimmer
 nametag 0x0AF4 ui\halox\campaign\campaign_settings\dimmed
 nametag 0x0AF5 ui\halox\campaign\secondary_skulls_med_ui
-nametag 0x0AF9 ui\global_strings\unknown
+nametag 0x0AF9 ui\global_strings\halo_online
 nametag 0x0C24 levels\shared\bitmaps\test_maps\cloud_1
 nametag 0x0C25 levels\shared\bitmaps\test_maps\cloud_2
 nametag 0x0C31 ui\chud\parallax_data\unknown
