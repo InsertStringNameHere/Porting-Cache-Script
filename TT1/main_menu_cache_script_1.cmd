@@ -751,8 +751,8 @@ nametag 0x1284 ui\halox\alert\animations\top_scale_up
 nametag 0x1287 ui\halox\alert\animations\alert_bottom_out
 nametag 0x1288 ui\halox\alert\animations\bottom_scale_down
 nametag 0x128A ui\halox\alert\animations\bottom_scale_up
-nametag 0x12B9 ui\chud\bitmaps\unknown
-nametag 0x12BC ui\chud\bitmaps\unknown
+nametag 0x12B9 ui\chud\bitmaps\waypoints\grenade
+nametag 0x12BC ui\chud\bitmaps\waypoints\player
 nametag 0x12FA rasterizer\shaders\chud_halo_online_unknown_shader
 nametag 0x12FB rasterizer\shaders\chud_halo_online_unknown_shader
 nametag 0x1301 sound\game_sfx\ui\shield_charge\charge\loop
