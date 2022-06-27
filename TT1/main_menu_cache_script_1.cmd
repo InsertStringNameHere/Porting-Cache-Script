@@ -475,7 +475,7 @@ nametag 0x09F1 ui\halox\common\roster\ringspeak_ui
 nametag 0x09F3 ui\halox\common\roster\animations\outer_ring
 nametag 0x09F4 ui\halox\common\roster\animations\middle_ring
 nametag 0x09F5 ui\halox\common\roster\rank_tray_ui
-nametag 0x09F6 ui\halox\common\roster\animations\mp_list_bitmap_new
+nametag 0x09F6 ui\halox\common\roster\animations\partyup_flash
 nametag 0x09F7 ui\halox\common\roster\roster_flashy_ui
 nametag 0x09F8 ui\halox\common\roster\blankcheck_ui
 nametag 0x09F9 ui\halox\common\roster\animations\playername_lose_focus
@@ -502,8 +502,11 @@ nametag 0x0A0D ui\halox\common\roster\animations\rating_lose_focus
 nametag 0x0A0E ui\halox\common\roster\animations\rating_scale_down
 nametag 0x0A0F ui\halox\common\roster\animations\rating_rec_focus
 nametag 0x0A10 ui\halox\common\roster\animations\rating_scale_up
-nametag 0x0A12 ui\halox\global_animations\animation_definitions\hidden_new
-nametag 0x0A13 ui\halox\global_animations\animations\hidden_new
+nametag 0x0A11 ui\halox\common\roster\animations\partyup_flash_hilite
+nametag 0x0A12 ui\halox\common\roster\animations\partyup_flash
+nametag 0x0A13 ui\halox\common\roster\animations\partyup_flash
+nametag 0x0A14 ui\halox\common\roster\animations\partyup_scaled_up
+nametag 0x0A15 ui\halox\common\roster\animations\partyup
 nametag 0x0A16 ui\halox\pregame_lobby\animations\precaching\precache_test
 nametag 0x0A17 ui\halox\common\common_bitmaps\black_10
 nametag 0x0A18 ui\halox\pregame_lobby\animations\precaching\precache_wipe
