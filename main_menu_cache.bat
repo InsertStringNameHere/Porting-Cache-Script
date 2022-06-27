@@ -4,7 +4,7 @@ ECHO 1.Rebuild from 0.6/ED Cache
 ECHO 2.Skip (Assumes you already have a rebuilt cache)
 ECHO.
 
-CHOICE /C 1 /M "Enter your choice:"
+CHOICE /C 12 /M "Enter your choice:"
 IF ERRORLEVEL 2 GOTO SKIP
 IF ERRORLEVEL 1 GOTO 0.6
 
@@ -44,6 +44,8 @@ cd ../TT2
 Type main_menu_cache_script_2.cmd | TagTool.exe ../MM/tags.dat
 cd ../TT1
 Type main_menu_cache_script_3.cmd | TagTool.exe ../MM/tags.dat
+cd ../TT2
+Type main_menu_cache_script_debug.cmd | TagTool.exe ../MM/tags.dat
 GOTO END
 
 :END
