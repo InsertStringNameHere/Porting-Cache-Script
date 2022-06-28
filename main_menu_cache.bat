@@ -12,6 +12,10 @@ IF ERRORLEVEL 1 GOTO 0.6
 ECHO Rebuilding Cache....
 cd TT1
 Type main_menu_cache_script_1.cmd | TagTool.exe ../ED/tags.dat
+cd ../TT2
+Type main_menu_cache_script_2.cmd | TagTool.exe ../ED/tags.dat
+cd ../TT1
+Type main_menu_cache_script_3.cmd | TagTool.exe ../ED/tags.dat
 GOTO Continue
 
 :SKIP
@@ -41,9 +45,9 @@ IF ERRORLEVEL 1 GOTO H3
 :H3
 ECHO Porting Halo 3 Main Menu....
 cd ../TT2
-Type main_menu_cache_script_2.cmd | TagTool.exe ../MM/tags.dat
+Type main_menu_cache_script_4.cmd | TagTool.exe ../MM/tags.dat
 cd ../TT1
-Type main_menu_cache_script_3.cmd | TagTool.exe ../MM/tags.dat
+Type main_menu_cache_script_5.cmd | TagTool.exe ../MM/tags.dat
 cd ../TT2
 Type main_menu_cache_script_debug.cmd | TagTool.exe ../MM/tags.dat
 GOTO END

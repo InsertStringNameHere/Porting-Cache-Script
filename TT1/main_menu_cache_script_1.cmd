@@ -1998,5 +1998,4 @@ removeblockelements hudshaders 25
 savetagchanges
 exit
 savetagnames
-rebuildcachefiles "../MM"
 quit
