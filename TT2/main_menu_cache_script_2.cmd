@@ -27,6 +27,10 @@ porttag replace single ui\halox\common\roster\animations\middle_ring.gui_widget_
 porttag replace single ui\halox\common\roster\rank_tray_ui.bitmap
 porttag replace single ui\halox\common\roster\animations\partyup_flash.gui_widget_animation_collection_definition
 exit
+edittag ui\chud\globals.chud_globals_definition
+setfield motionsensorblipheightmodifier 1.8
+savetagchanges
+exit
 edittag ui\halox\common\roster\roster.skn3  
 setfield textwidgets[0].definition.flags DoNotApplyOldContentUpscaling,LeftJustify
 setfield textwidgets[0].definition.guirenderblock.name name
