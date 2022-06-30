@@ -392,8 +392,6 @@ savetagchanges
 exit
 opencachefile "../H3Maps/mainmenu.map"
 porttag *.scnr
-porttag replace single ui\halox\pregame_lobby\difficulty_large_ui.bitm
-porttag replace single ui\halox\pregame_lobby\selection\films_ui.bitm
 exit
 updatemapfilesalt "../H3Maps/info"
 rescalegui 1.6666667

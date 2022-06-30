@@ -1,4 +1,9 @@
+opencachefile "../H3Maps/100_citadel.map"
+porttag replace single ui\chud\globals.chud_globals_definition
+exit
 opencachefile "../H3Maps/mainmenu.map"
+porttag replace single ui\halox\pregame_lobby\difficulty_large_ui.bitm
+porttag replace single ui\halox\pregame_lobby\selection\films_ui.bitm
 porttag replace single ui\halox\common\roster\animations\mp_list_name.gui_widget_animation_collection_definition
 porttag replace single ui\halox\common\roster\animations\mp_name_hilite.gui_widget_animation_collection_definition
 porttag replace single ui\halox\common\roster\animations\rank_hilite.gui_widget_animation_collection_definition
