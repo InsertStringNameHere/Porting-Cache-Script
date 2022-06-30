@@ -49,6 +49,7 @@ Type main_menu_cache_script_4.cmd | TagTool.exe ../MM/tags.dat
 cd ../TT1
 Type main_menu_cache_script_5.cmd | TagTool.exe ../MM/tags.dat
 cd ../TT2
+Type main_menu_cache_script_6.cmd | TagTool.exe ../MM/tags.dat
 Type main_menu_cache_script_debug.cmd | TagTool.exe ../MM/tags.dat
 GOTO END
 
