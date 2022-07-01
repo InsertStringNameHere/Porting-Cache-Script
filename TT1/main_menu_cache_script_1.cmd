@@ -1918,7 +1918,6 @@ deletetag 0x0A12
 deletetag 0x0A13
 deletetag 0x028A
 deletetag 0x028C
-deletetag 0x0AF9
 deletetag 0x12B9
 deletetag 0x12BC
 deletetag 0x12FA
