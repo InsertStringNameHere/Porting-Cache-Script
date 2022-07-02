@@ -59,3 +59,41 @@ setfield hudwidgets[22].bitmapwidgets[0].renderdata[0].unknown5 0
 savetagchanges
 exit
 rescalehudtext 0.6 all
+edittag ui\chud\spartan.chud_definition
+setfield hudwidgets[12].textwidgets[0].font SplitscreenHudMessage
+setfield hudwidgets[12].textwidgets[0].placementdata[0].scale 1.2 1.2
+setfield hudwidgets[12].textwidgets[1].font SplitscreenHudMessage
+setfield hudwidgets[12].textwidgets[1].placementdata[0].scale 0.8 0.8
+setfield hudwidgets[12].textwidgets[2].font SplitscreenHudMessage
+setfield hudwidgets[12].textwidgets[2].placementdata[0].scale 0.8 0.8
+setfield hudwidgets[13].textwidgets[0].font SplitscreenHudMessage
+setfield hudwidgets[13].textwidgets[0].placementdata[0].scale 1.2 1.2
+setfield hudwidgets[13].textwidgets[1].font SplitscreenHudMessage
+setfield hudwidgets[13].textwidgets[1].placementdata[0].scale 0.8 0.8
+setfield hudwidgets[16].textwidgets[0].font SplitscreenHudMessage
+setfield hudwidgets[16].textwidgets[0].placementdata[0].scale 1.2 1.2
+setfield hudwidgets[16].textwidgets[1].font SplitscreenHudMessage
+setfield hudwidgets[16].textwidgets[1].placementdata[0].scale 0.8 0.8
+setfield hudwidgets[17].textwidgets[0].font SplitscreenHudMessage
+setfield hudwidgets[17].textwidgets[0].placementdata[0].scale 1.2 1.2
+setfield hudwidgets[17].textwidgets[1].font SplitscreenHudMessage
+setfield hudwidgets[17].textwidgets[1].placementdata[0].scale 0.8 0.8
+setfield hudwidgets[18].textwidgets[0].font SplitscreenHudMessage
+setfield hudwidgets[18].textwidgets[0].placementdata[0].scale 1.2 1.2
+setfield hudwidgets[18].textwidgets[1].font SplitscreenHudMessage
+setfield hudwidgets[18].textwidgets[1].placementdata[0].scale 0.6 0.6
+savetagchanges
+exit
+edittag ui\chud\sniper_rifle.chud_definition
+setfield hudwidgets[3].textwidgets[0].font SplitscreenHudMessage
+setfield hudwidgets[3].textwidgets[0].placementdata[0].scale 1.725 1.725
+setfield hudwidgets[3].textwidgets[1].font SplitscreenHudMessage
+setfield hudwidgets[3].textwidgets[1].placementdata[0].scale 1.725 1.725
+setfield hudwidgets[3].textwidgets[2].font SplitscreenHudMessage
+setfield hudwidgets[3].textwidgets[2].placementdata[0].scale 1.725 1.725
+setfield hudwidgets[3].textwidgets[3].font SplitscreenHudMessage
+setfield hudwidgets[3].textwidgets[3].placementdata[0].scale 1.725 1.725
+setfield hudwidgets[3].textwidgets[4].font SplitscreenHudMessage
+setfield hudwidgets[3].textwidgets[4].placementdata[0].scale 1.725 1.725
+savetagchanges
+exit
