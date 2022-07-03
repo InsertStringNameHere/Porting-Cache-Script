@@ -486,19 +486,50 @@ removeblockelements elements 3
 savetagchanges
 exit
 edittag ui\halox\start_menu\panes\settings\sidebar_items.gui_datasource_definition
-addblockelements elements 1
-editblock elements[1]
-addblockelements stringidvalues 1
-editblock stringidvalues[0]
-setfield name name
-setfield value appearance
+addblockelements elements 2
+addblockelements elements[1].stringidvalues 4
+addblockelements elements[2].stringidvalues 3
+setfield elements[0].stringidvalues[0].name name
+setfield elements[0].stringidvalues[0].value controls_settings
+setfield elements[0].stringidvalues[1].name display_group
+setfield elements[0].stringidvalues[1].value controls_settings
+setfield elements[0].stringidvalues[2].name target
+setfield elements[0].stringidvalues[2].value start_menu_settings_controls
+setfield elements[1].stringidvalues[0].name name
+setfield elements[1].stringidvalues[0].value appearance
+setfield elements[1].stringidvalues[1].name display_group
+setfield elements[1].stringidvalues[1].value appearance_settings
+setfield elements[1].stringidvalues[2].name target
+setfield elements[1].stringidvalues[2].value start_menu_settings_appearance
+setfield elements[1].stringidvalues[3].name name
+setfield elements[1].stringidvalues[3].value appearance
+setfield elements[2].stringidvalues[0].name name
+setfield elements[2].stringidvalues[0].value display_settings
+setfield elements[2].stringidvalues[1].name display_group
+setfield elements[2].stringidvalues[1].value display_settings
+setfield elements[2].stringidvalues[2].name target
+setfield elements[2].stringidvalues[2].value start_menu_settings_display
+savetagchanges
 exit
-exit
+edittag ui\halox\start_menu\panes\settings_display\sidebar_items.gui_datasource_definition
+removeblockelements elements 1
 savetagchanges
 exit
 edittag levels\ui\mainmenu\sky\ui.sefc
 setfield screeneffects[0].gammaenhance 0.15
 setfield screeneffects[0].colorfilter 0.05882353 0.09411765 0.3333333
+savetagchanges
+exit
+edittag ui\halox\start_menu\panes\settings\start_menu_settings.scn3
+setfield groupwidgets[2].definition.bitmapwidgets[0].definition.bitmap ui\halox\start_menu\panes\settings\settings_ui.bitm
+setfield groupwidgets[2].definition.bitmapwidgets[0].definition.initialspriteframe 1
+setfield groupwidgets[3].definition.bitmapwidgets[0].definition.bitmap ui\halox\start_menu\panes\settings\settings_ui.bitm
+setfield groupwidgets[3].definition.bitmapwidgets[0].definition.initialspriteframe 4
+setfield groupwidgets[5].definition.bitmapwidgets[0].definition.bitmap ui\halox\start_menu\panes\settings\settings_ui.bitm
+setfield groupwidgets[5].definition.bitmapwidgets[0].definition.initialspriteframe 0
+setfield groupwidgets[7].definition.textwidgets[0].definition.valueidentifier display_description
+setfield groupwidgets[7].definition.bitmapwidgets[0].definition.bitmap ui\halox\start_menu\panes\settings\settings_ui.bitm
+setfield groupwidgets[7].definition.bitmapwidgets[0].definition.initialspriteframe 2
 savetagchanges
 exit
 quit
