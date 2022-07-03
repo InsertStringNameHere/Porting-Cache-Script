@@ -225,3 +225,32 @@ setfield bitmapwidgets[18].definition.guirenderblock.animationcollection ui\halo
 setfield bitmapwidgets[18].definition.blendmethod alphablend
 savetagchanges
 exit
+opencachefile "../H3Maps/mainmenu.map"
+porttag replace single ui\halox\start_menu\ring_o_light.bitmap
+porttag replace single ui\halox\start_menu\common\arrow2_ui.bitmap
+porttag replace single ui\halox\start_menu\common\arrow_ui.bitmap
+exit
+edittag ui\halox\start_menu\start_menu.scn3
+addblockelements groupwidgets[1].definition.bitmapwidgets 3
+setfield groupwidgets[1].definition.bitmapwidgets[0].definition.flags DoNotApplyOldContentUpscaling
+setfield groupwidgets[1].definition.bitmapwidgets[0].definition.guirenderblock.name ring_of_light
+setfield groupwidgets[1].definition.bitmapwidgets[0].definition.guirenderblock.renderdepthbias -10
+setfield groupwidgets[1].definition.bitmapwidgets[0].definition.guirenderblock.bounds720p 4 785 0 0
+setfield groupwidgets[1].definition.bitmapwidgets[0].definition.guirenderblock.animationcollection ui\halox\start_menu\animations\panes.gui_widget_animation_collection_definition
+setfield groupwidgets[1].definition.bitmapwidgets[0].definition.bitmap ui\halox\start_menu\ring_o_light.bitmap
+setfield groupwidgets[1].definition.bitmapwidgets[0].definition.blendmethod alphablend
+setfield groupwidgets[1].definition.bitmapwidgets[1].definition.flags DoNotApplyOldContentUpscaling,ScaleToFitBounds
+setfield groupwidgets[1].definition.bitmapwidgets[1].definition.guirenderblock.name base_color
+setfield groupwidgets[1].definition.bitmapwidgets[1].definition.guirenderblock.renderdepthbias -15
+setfield groupwidgets[1].definition.bitmapwidgets[1].definition.guirenderblock.bounds720p 0 55 40 96
+setfield groupwidgets[1].definition.bitmapwidgets[1].definition.guirenderblock.animationcollection ui\halox\start_menu\animations\panes.gui_widget_animation_collection_definition
+setfield groupwidgets[1].definition.bitmapwidgets[1].definition.blendmethod alphablend
+setfield groupwidgets[1].definition.bitmapwidgets[2].definition.flags DoNotApplyOldContentUpscaling,ScaleToFitBounds
+setfield groupwidgets[1].definition.bitmapwidgets[2].definition.guirenderblock.name emblem
+setfield groupwidgets[1].definition.bitmapwidgets[2].definition.guirenderblock.renderdepthbias -10
+setfield groupwidgets[1].definition.bitmapwidgets[2].definition.guirenderblock.bounds720p 4 60 36 92
+setfield groupwidgets[1].definition.bitmapwidgets[2].definition.guirenderblock.animationcollection ui\halox\start_menu\animations\panes.gui_widget_animation_collection_definition
+setfield groupwidgets[1].definition.bitmapwidgets[2].definition.bitmap ui\eldewrito\common\common_bitmaps\emblem.bitmap
+setfield groupwidgets[1].definition.bitmapwidgets[2].definition.blendmethod alphablend
+savetagchanges
+exit
