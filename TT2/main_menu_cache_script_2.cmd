@@ -1,9 +1,31 @@
+opencachefile "../H3Maps/mainmenu.map"
+porttag replace single ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
+exit
+edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
+setfield elements[0].stringidvalues[0].value campaign
+setfield elements[0].stringidvalues[1].value campaign_help
+setfield elements[1].stringidvalues[0].value multiplayer
+setfield elements[1].stringidvalues[1].value custom_games_help
+setfield elements[2].stringidvalues[0].value mapeditor
+setfield elements[2].stringidvalues[1].value editor_help
+setfield elements[3].stringidvalues[0].value locked
+setfield elements[3].stringidvalues[1].value locked
+setfield elements[4].stringidvalues[0].value theater
+setfield elements[4].stringidvalues[1].value theater_help
+savetagchanges
+exit
 opencachefile "../H3Maps/100_citadel.map"
 porttag replace single ui\chud\globals.chud_globals_definition
+exit
+edittag ui\chud\globals.chud_globals_definition
+setfield motionsensorblipheightmodifier 1.8
+savetagchanges
 exit
 opencachefile "../H3Maps/mainmenu.map"
 porttag replace single ui\halox\pregame_lobby\difficulty_large_ui.bitm
 porttag replace single ui\halox\pregame_lobby\selection\films_ui.bitm
+exit
+opencachefile "../H3Maps/mainmenu.map"
 porttag replace single ui\halox\common\roster\animations\mp_list_name.gui_widget_animation_collection_definition
 porttag replace single ui\halox\common\roster\animations\mp_name_hilite.gui_widget_animation_collection_definition
 porttag replace single ui\halox\common\roster\animations\rank_hilite.gui_widget_animation_collection_definition
@@ -26,10 +48,6 @@ porttag replace single ui\halox\common\roster\animations\outer_ring.gui_widget_a
 porttag replace single ui\halox\common\roster\animations\middle_ring.gui_widget_animation_collection_definition
 porttag replace single ui\halox\common\roster\rank_tray_ui.bitmap
 porttag replace single ui\halox\common\roster\animations\partyup_flash.gui_widget_animation_collection_definition
-exit
-edittag ui\chud\globals.chud_globals_definition
-setfield motionsensorblipheightmodifier 1.8
-savetagchanges
 exit
 edittag ui\halox\common\roster\roster.skn3  
 setfield textwidgets[0].definition.flags DoNotApplyOldContentUpscaling,LeftJustify

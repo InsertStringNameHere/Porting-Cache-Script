@@ -424,6 +424,14 @@ setfield groupwidgets[1].definition.listwidgets[0].definition.items[11].guirende
 setfield groupwidgets[1].definition.listwidgets[0].definition.items[12].guirenderblock.bounds720p 516 0 0 0
 savetagchanges
 exit
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[0].guirenderblock.bounds720p 0 0 0 0
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[1].guirenderblock.bounds720p 41 0 0 0 
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[2].guirenderblock.bounds720p 82 0 0 0 
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[3].guirenderblock.bounds720p 123 0 0 0
+setfield groupwidgets[0].definition.listwidgets[0].definition.items[4].guirenderblock.bounds720p 164 0 0 0
+savetagchanges
+exit
 edittag ui\halox\pregame_lobby\selection\lock.bitmap
 importbitmap 0 "../DDS/UI/lock.dds"
 savetagchanges
