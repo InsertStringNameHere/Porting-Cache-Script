@@ -496,4 +496,9 @@ exit
 exit
 savetagchanges
 exit
+edittag levels\ui\mainmenu\sky\ui.sefc
+setfield screeneffects[0].gammaenhance 0.15
+setfield screeneffects[0].colorfilter 0.05882353 0.09411765 0.3333333
+savetagchanges
+exit
 quit
