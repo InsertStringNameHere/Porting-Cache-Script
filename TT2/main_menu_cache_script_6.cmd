@@ -25,8 +25,8 @@ addblockelements hudwidgets[22].bitmapwidgets[0].renderdata 1
 setfield hudwidgets[22].bitmapwidgets[0].statedata[0].consumableflags consumable1available
 setfield hudwidgets[22].bitmapwidgets[0].placementdata[0].anchor parent
 setfield hudwidgets[22].bitmapwidgets[0].placementdata[0].origin 0 0
-setfield hudwidgets[22].bitmapwidgets[0].placementdata[0].offset 20 120
-setfield hudwidgets[22].bitmapwidgets[0].placementdata[0].scale 1 1
+setfield hudwidgets[22].bitmapwidgets[0].placementdata[0].offset 27 100
+setfield hudwidgets[22].bitmapwidgets[0].placementdata[0].scale 2 2
 setfield hudwidgets[22].bitmapwidgets[0].animationdata[0].active.animation ui\chud\animations\equipment_kablam.chad
 setfield hudwidgets[22].bitmapwidgets[0].renderdata[0].shadertype simple
 setfield hudwidgets[22].bitmapwidgets[0].renderdata[0].blendmodeho alphablend
