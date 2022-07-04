@@ -254,3 +254,14 @@ setfield groupwidgets[1].definition.bitmapwidgets[2].definition.bitmap ui\eldewr
 setfield groupwidgets[1].definition.bitmapwidgets[2].definition.blendmethod alphablend
 savetagchanges
 exit
+edittag ui\halox\start_menu\panes\hq_service_record\identity_strip.grup
+setfield bitmapwidgets[0].definition.bitmap ui\eldewrito\common\common_bitmaps\emblem.bitmap
+savetagchanges
+exit
+opencachefile "../H3Maps/mainmenu.map"
+porttag replace single ui\halox\pregame_lobby\selection\network.bitmap
+exit
+edittag ui\halox\start_menu\panes\hq_service_record_file_share\start_menu_hq_service_record_file_share.scn3
+setfield groupwidgets[9].definition.bitmapwidgets[0].definition.bitmap ui\halox\pregame_lobby\selection\network.bitmap
+savetagchanges
+exit
