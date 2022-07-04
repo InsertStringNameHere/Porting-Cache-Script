@@ -265,3 +265,93 @@ edittag ui\halox\start_menu\panes\hq_service_record_file_share\start_menu_hq_ser
 setfield groupwidgets[9].definition.bitmapwidgets[0].definition.bitmap ui\halox\pregame_lobby\selection\network.bitmap
 savetagchanges
 exit
+edittag ui\halox\common\player_select\player_select.scn3
+addblockelements groupwidgets[0].definition.textwidgets 10
+addblockelements groupwidgets[0].definition.bitmapwidgets 1
+setfield groupwidgets[0].definition.textwidgets[3].definition.flags LeftJustify
+setfield groupwidgets[0].definition.textwidgets[3].definition.guirenderblock.name service_tag
+setfield groupwidgets[0].definition.textwidgets[3].definition.guirenderblock.renderdepthbias 0
+setfield groupwidgets[0].definition.textwidgets[3].definition.guirenderblock.bounds720p 86 258 110 728
+setfield groupwidgets[0].definition.textwidgets[3].definition.guirenderblock.animationcollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+setfield groupwidgets[0].definition.textwidgets[3].definition.customfont terminal
+setfield groupwidgets[0].definition.textwidgets[4].definition.flags LeftJustify,NoDropShadow
+setfield groupwidgets[0].definition.textwidgets[4].definition.guirenderblock.name player_rank
+setfield groupwidgets[0].definition.textwidgets[4].definition.guirenderblock.renderdepthbias 0
+setfield groupwidgets[0].definition.textwidgets[4].definition.guirenderblock.bounds720p 61 653 95 963
+setfield groupwidgets[0].definition.textwidgets[4].definition.guirenderblock.animationcollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+setfield groupwidgets[0].definition.textwidgets[4].definition.customfont terminal
+setfield groupwidgets[0].definition.textwidgets[5].definition.flags LeftJustify,NoDropShadow
+setfield groupwidgets[0].definition.textwidgets[5].definition.guirenderblock.name player_grade
+setfield groupwidgets[0].definition.textwidgets[5].definition.guirenderblock.renderdepthbias 0
+setfield groupwidgets[0].definition.textwidgets[5].definition.guirenderblock.bounds720p 86 653 120 963
+setfield groupwidgets[0].definition.textwidgets[5].definition.guirenderblock.animationcollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+setfield groupwidgets[0].definition.textwidgets[5].definition.customfont terminal
+setfield groupwidgets[0].definition.textwidgets[6].definition.flags LeftJustify,Uppercase,NoDropShadow
+setfield groupwidgets[0].definition.textwidgets[6].definition.guirenderblock.name campaign
+setfield groupwidgets[0].definition.textwidgets[6].definition.guirenderblock.renderdepthbias 0
+setfield groupwidgets[0].definition.textwidgets[6].definition.guirenderblock.bounds720p 128 475 158 963
+setfield groupwidgets[0].definition.textwidgets[6].definition.guirenderblock.animationcollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+setfield groupwidgets[0].definition.textwidgets[6].definition.valueidentifier campaign
+setfield groupwidgets[0].definition.textwidgets[6].definition.textcolorpreset ice
+setfield groupwidgets[0].definition.textwidgets[6].definition.customfont terminal
+setfield groupwidgets[0].definition.textwidgets[7].definition.flags LeftJustify,Uppercase,NoDropShadow
+setfield groupwidgets[0].definition.textwidgets[7].definition.guirenderblock.name xbox_live
+setfield groupwidgets[0].definition.textwidgets[7].definition.guirenderblock.renderdepthbias 0
+setfield groupwidgets[0].definition.textwidgets[7].definition.guirenderblock.bounds720p 280 475 309 725
+setfield groupwidgets[0].definition.textwidgets[7].definition.guirenderblock.animationcollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+setfield groupwidgets[0].definition.textwidgets[7].definition.valueidentifier xbox_live
+setfield groupwidgets[0].definition.textwidgets[7].definition.textcolorpreset ice
+setfield groupwidgets[0].definition.textwidgets[7].definition.customfont terminal
+setfield groupwidgets[0].definition.textwidgets[8].definition.flags LeftJustify,LargeTextBuffer255Chars,NoDropShadow
+setfield groupwidgets[0].definition.textwidgets[8].definition.guirenderblock.name caption_column
+setfield groupwidgets[0].definition.textwidgets[8].definition.guirenderblock.renderdepthbias 0
+setfield groupwidgets[0].definition.textwidgets[8].definition.guirenderblock.bounds720p 342 475 417 675
+setfield groupwidgets[0].definition.textwidgets[8].definition.guirenderblock.animationcollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+setfield groupwidgets[0].definition.textwidgets[8].definition.valueidentifier caption_column
+setfield groupwidgets[0].definition.textwidgets[8].definition.textcolorpreset ice
+setfield groupwidgets[0].definition.textwidgets[8].definition.customfont terminal
+setfield groupwidgets[0].definition.textwidgets[9].definition.flags LeftJustify,Uppercase,NoDropShadow
+setfield groupwidgets[0].definition.textwidgets[9].definition.guirenderblock.name ranked_matches
+setfield groupwidgets[0].definition.textwidgets[9].definition.guirenderblock.renderdepthbias 0
+setfield groupwidgets[0].definition.textwidgets[9].definition.guirenderblock.bounds720p 312 685 341 952
+setfield groupwidgets[0].definition.textwidgets[9].definition.guirenderblock.animationcollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+setfield groupwidgets[0].definition.textwidgets[9].definition.valueidentifier ranked_matches
+setfield groupwidgets[0].definition.textwidgets[9].definition.customfont terminal
+setfield groupwidgets[0].definition.textwidgets[10].definition.flags LeftJustify,NoDropShadow
+setfield groupwidgets[0].definition.textwidgets[10].definition.guirenderblock.name value_column
+setfield groupwidgets[0].definition.textwidgets[10].definition.guirenderblock.renderdepthbias 0
+setfield groupwidgets[0].definition.textwidgets[10].definition.guirenderblock.bounds720p 344 685 417 952
+setfield groupwidgets[0].definition.textwidgets[10].definition.guirenderblock.animationcollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+setfield groupwidgets[0].definition.textwidgets[10].definition.customfont terminal
+setfield groupwidgets[0].definition.textwidgets[11].definition.flags LeftJustify,Uppercase,NoDropShadow
+setfield groupwidgets[0].definition.textwidgets[11].definition.guirenderblock.name total_xp
+setfield groupwidgets[0].definition.textwidgets[11].definition.guirenderblock.renderdepthbias 0
+setfield groupwidgets[0].definition.textwidgets[11].definition.guirenderblock.bounds720p 312 475 341 725
+setfield groupwidgets[0].definition.textwidgets[11].definition.guirenderblock.animationcollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+setfield groupwidgets[0].definition.textwidgets[11].definition.valueidentifier total_xp
+setfield groupwidgets[0].definition.textwidgets[11].definition.customfont terminal
+setfield groupwidgets[0].definition.textwidgets[12].definition.flags LeftJustify,LargeTextBuffer255Chars,NoDropShadow
+setfield groupwidgets[0].definition.textwidgets[12].definition.guirenderblock.name campaign_completion
+setfield groupwidgets[0].definition.textwidgets[12].definition.guirenderblock.renderdepthbias 0
+setfield groupwidgets[0].definition.textwidgets[12].definition.guirenderblock.bounds720p 162 475 307 675
+setfield groupwidgets[0].definition.textwidgets[12].definition.guirenderblock.animationcollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+setfield groupwidgets[0].definition.textwidgets[12].definition.valueidentifier campaign_completion_none
+setfield groupwidgets[0].definition.textwidgets[12].definition.textcolorpreset ice
+setfield groupwidgets[0].definition.textwidgets[12].definition.customfont terminal
+setfield groupwidgets[0].definition.bitmapwidgets[2].definition.flags DoNotApplyOldContentUpscaling,ScaleToFitBounds
+setfield groupwidgets[0].definition.bitmapwidgets[2].definition.bitmap ui\eldewrito\common\common_bitmaps\emblem.bitmap
+setfield groupwidgets[0].definition.bitmapwidgets[3].definition.bitmap ui\halox\pregame_lobby\difficulty_large_ui.bitmap
+setfield groupwidgets[0].definition.bitmapwidgets[7].definition.bitmap ui\halox\pregame_lobby\line_ui.bitmap
+setfield groupwidgets[0].definition.bitmapwidgets[8].definition.bitmap ui\halox\pregame_lobby\line_ui.bitmap
+setfield groupwidgets[0].definition.bitmapwidgets[9].definition.bitmap ui\halox\pregame_lobby\line_ui.bitmap
+setfield groupwidgets[0].definition.bitmapwidgets[10].definition.bitmap ui\halox\pregame_lobby\line_ui.bitmap
+setfield groupwidgets[0].definition.bitmapwidgets[11].definition.bitmap ui\halox\pregame_lobby\line_ui.bitmap
+setfield groupwidgets[0].definition.bitmapwidgets[16].definition.flags ScaleToFitBounds
+setfield groupwidgets[0].definition.bitmapwidgets[16].definition.guirenderblock.name channel
+setfield groupwidgets[0].definition.bitmapwidgets[16].definition.guirenderblock.renderdepthbias -9
+setfield groupwidgets[0].definition.bitmapwidgets[16].definition.guirenderblock.bounds720p 124 468 450 961
+setfield groupwidgets[0].definition.bitmapwidgets[16].definition.guirenderblock.animationcollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+setfield groupwidgets[0].definition.bitmapwidgets[16].definition.bitmap ui\halox\common\common_bitmaps\third_column.bitmap
+setfield groupwidgets[0].definition.bitmapwidgets[16].definition.blendmethod alphablend
+savetagchanges
+exit
