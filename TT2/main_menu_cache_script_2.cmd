@@ -355,3 +355,24 @@ setfield groupwidgets[0].definition.bitmapwidgets[16].definition.bitmap ui\halox
 setfield groupwidgets[0].definition.bitmapwidgets[16].definition.blendmethod alphablend
 savetagchanges
 exit
+opencachefile "../H3MythicMaps/sandbox.map"
+porttag replace single ui\chud\scoreboard.chud_definition
+exit
+edittag ui\chud\scoreboard.chud_definition
+setfield hudwidgets[0].placementdata[0].offset 0 -62
+setfield hudwidgets[0].textwidgets[0].font hudnumbertext
+setfield hudwidgets[1].textwidgets[0].font hudnumbertext
+setfield hudwidgets[2].textwidgets[0].font hudnumbertext
+setfield hudwidgets[3].textwidgets[0].font hudnumbertext
+setfield hudwidgets[4].textwidgets[0].font hudnumbertext
+setfield hudwidgets[4].textwidgets[1].font hudnumbertext
+setfield hudwidgets[5].textwidgets[0].font hudnumbertext
+setfield hudwidgets[5].textwidgets[1].font hudnumbertext
+setfield hudwidgets[5].textwidgets[2].font hudnumbertext
+setfield hudwidgets[6].textwidgets[0].font hudnumbertext
+setfield hudwidgets[8].textwidgets[0].font hudnumbertext
+setfield hudwidgets[8].textwidgets[1].font hudnumbertext
+setfield hudwidgets[8].textwidgets[2].font hudnumbertext
+setfield hudwidgets[8].textwidgets[3].font hudnumbertext
+savetagchanges
+exit
