@@ -532,4 +532,13 @@ setfield groupwidgets[7].definition.bitmapwidgets[0].definition.bitmap ui\halox\
 setfield groupwidgets[7].definition.bitmapwidgets[0].definition.initialspriteframe 2
 savetagchanges
 exit
+edittag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+setfield groupwidgets[2].definition.bitmapwidgets[0].definition.guirenderblock.name unknown_film_image
+savetagchanges
+exit
+edittag ui\halox\campaign\campaign_select_level.scn3
+setfield groupwidgets[0].definition.bitmapwidgets[1].definition.guirenderblock.name unknown_film_image
+setfield groupwidgets[0].definition.bitmapwidgets[2].definition.bitmap null
+savetagchanges
+exit
 quit
