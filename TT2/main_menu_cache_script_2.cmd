@@ -19,6 +19,7 @@ porttag replace single ui\chud\globals.chud_globals_definition
 exit
 edittag ui\chud\globals.chud_globals_definition
 setfield motionsensorblipheightmodifier 1.8
+setfield hudglobals[0].scoreboardspacingsize 37
 savetagchanges
 exit
 opencachefile "../H3Maps/mainmenu.map"
@@ -359,7 +360,7 @@ opencachefile "../H3MythicMaps/sandbox.map"
 porttag replace single ui\chud\scoreboard.chud_definition
 exit
 edittag ui\chud\scoreboard.chud_definition
-setfield hudwidgets[0].placementdata[0].offset 0 -62
+setfield hudwidgets[0].placementdata[0].offset 0 -72
 setfield hudwidgets[0].textwidgets[0].font hudnumbertext
 setfield hudwidgets[1].textwidgets[0].font hudnumbertext
 setfield hudwidgets[2].textwidgets[0].font hudnumbertext
