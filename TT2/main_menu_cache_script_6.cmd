@@ -97,3 +97,7 @@ setfield hudwidgets[3].textwidgets[4].font SplitscreenHudMessage
 setfield hudwidgets[3].textwidgets[4].placementdata[0].scale 1.725 1.725
 savetagchanges
 exit
+edittag ui\chud\bitmaps\ballistic_meters.bitmap
+setfield sequences[7].sprites[0].top 0.275625
+savetagchanges
+exit
