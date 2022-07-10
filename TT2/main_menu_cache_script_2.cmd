@@ -19,6 +19,8 @@ porttag replace single ui\chud\globals.chud_globals_definition
 exit
 edittag ui\chud\globals.chud_globals_definition
 setfield motionsensorblipheightmodifier 1.8
+setfield hudglobals[0].hudattributes[0].statemessagescale 1
+setfield hudglobals[0].hudattributes[0].messagescale 1
 setfield hudglobals[0].scoreboardspacingsize 37
 savetagchanges
 exit
