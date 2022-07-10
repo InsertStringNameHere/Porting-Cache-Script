@@ -101,3 +101,8 @@ edittag ui\chud\bitmaps\ballistic_meters.bitmap
 setfield sequences[7].sprites[0].top 0.275625
 savetagchanges
 exit
+edittag ui\chud\spartan.chud_definition
+setfield hudwidgets[0].bitmapwidgets[1].placementdata[0].scale 24.28 1
+setfield hudwidgets[2].bitmapwidgets[0].placementdata[0].origin 1.89865 0.999
+savetagchanges
+exit
