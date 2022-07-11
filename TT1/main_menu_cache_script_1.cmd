@@ -807,6 +807,9 @@ nametag 0x1339 objects\characters\masterchief\fx\coop_teleport\particles\coop_te
 nametag 0x133A fx\particles\models\mesh_fx\jackal_shield\_bitmaps\fx_jackal_shield
 nametag 0x133B fx\particles\models\mesh_fx\cortana_ring\cortana_ring
 nametag 0x133D fx\particles\models\mesh_fx\coop_teleport\coop_teleport_ring
+nametag 0x1351 globals\masterchief_3p_shield_impact
+nametag 0x1353 objects\characters\global\3p_overshield
+nametag 0x1354 objects\characters\global\fp_overshield
 nametag 0x1360 fx\physics_templates\small_rocks
 nametag 0x1367 sound\materials\particles\shrapnel
 nametag 0x137C shaders\particle_templates\_3_8_0_0_0_0_0_0_0_0
