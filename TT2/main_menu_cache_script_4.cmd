@@ -541,4 +541,39 @@ setfield groupwidgets[0].definition.bitmapwidgets[1].definition.guirenderblock.n
 setfield groupwidgets[0].definition.bitmapwidgets[2].definition.bitmap null
 savetagchanges
 exit
+edittag objects\characters\dervish\dervish.hlmt
+setfield shieldimpactthirdperson globals\elite_3p_shield_impact.shit
+setfield shieldimpactfirstperson globals\elite_fp_shield_impact.shit
+setfield overshieldthirdperson objects\characters\global\3p_overshield.shit
+setfield overshieldfirstperson objects\characters\global\fp_overshield.shit
+savetagchanges
+exit
+edittag objects\characters\elite\elite_sp.hlmt
+setfield shieldimpactthirdperson globals\elite_3p_shield_impact.shit
+setfield shieldimpactfirstperson globals\elite_fp_shield_impact.shit
+setfield overshieldthirdperson objects\characters\global\3p_overshield.shit
+setfield overshieldfirstperson objects\characters\global\fp_overshield.shit
+savetagchanges
+exit
+edittag objects\characters\elite\mp_elite\mp_elite.hlmt
+setfield shieldimpactthirdperson globals\elite_3p_shield_impact.shit
+setfield shieldimpactfirstperson globals\elite_fp_shield_impact.shit
+setfield overshieldthirdperson objects\characters\global\3p_overshield.shit
+setfield overshieldfirstperson objects\characters\global\fp_overshield.shit
+savetagchanges
+exit
+edittag objects\characters\masterchief\masterchief.hlmt
+setfield shieldimpactthirdperson globals\masterchief_3p_shield_impact.shit
+setfield shieldimpactfirstperson globals\masterchief_fp_shield_impact.shit
+setfield overshieldthirdperson objects\characters\global\3p_overshield.shit
+setfield overshieldfirstperson objects\characters\global\fp_overshield.shit
+savetagchanges
+exit
+edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.hlmt
+setfield shieldimpactthirdperson globals\masterchief_3p_shield_impact.shit
+setfield shieldimpactfirstperson globals\masterchief_fp_shield_impact.shit
+setfield overshieldthirdperson objects\characters\global\3p_overshield.shit
+setfield overshieldfirstperson objects\characters\global\fp_overshield.shit
+savetagchanges
+exit
 quit
