@@ -203,6 +203,7 @@ nametag 0x04ED sound\weapons\plasma_grenade\throwgren
 nametag 0x0501 shaders\shader_templates\_0_0_0_0_0_0_1_3_0_1_0
 nametag 0x0502 shaders\shader_templates\_0_0_0_0_0_0_1_3_0_1_0
 nametag 0x052A shaders\contrail
+nametag 0x052C fx\contrails\_bitmaps\beam
 nametag 0x052F shaders\contrail_options\global_contrail_options
 nametag 0x0530 shaders\contrail_options\albedo_diffuse_only
 nametag 0x0531 shaders\contrail_options\albedo_palettized
