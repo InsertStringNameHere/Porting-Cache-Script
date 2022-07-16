@@ -549,6 +549,44 @@ setfield groupwidgets[0].definition.bitmapwidgets[1].definition.guirenderblock.n
 setfield groupwidgets[0].definition.bitmapwidgets[2].definition.bitmap null
 savetagchanges
 exit
+edittag ui\halox\main_menu\strings.unic
+setstring english multiplayer "CUSTOM GAMES"
+setstring english mapeditor "FORGE"
+savetagchanges
+exit
+edittag ui\halox\pregame_lobby\strings.unic
+setstring english header_multiplayer "CUSTOM GAMES LOBBY"
+savetagchanges
+exit
+edittag ui\halox\pregame_lobby\strings.unic
+setstring english advanced_options "\UE102 EDIT GAME OPTIONS"
+setstring english select_network_mode "NETWORK: <lobby-network/>"
+savetagchanges
+exit
+edittag ui\halox\pregame_lobby\switch_lobby\strings.unic
+setstring english multiplayer "CUSTOM GAMES"
+savetagchanges
+exit
+edittag ui\halox\start_menu\panes\settings\strings.unic
+setstring english appearance "CUSTOMIZATION"
+setstring english controls_description "Customize your graphical settings and control scheme to your personal playing style."
+setstring english display_settings "SCREEN SETTINGS"
+setstring english display_description "Customize your screen settings to decide how you want subtitles to be displayed."
+savetagchanges
+exit
+edittag ui\halox\main_menu\button_keys.unic
+setstring english main_menu_offline "\UE10C Settings"
+savetagchanges
+exit
+edittag ui\halox\pregame_lobby\button_keys.unic
+setstring english pregame_lobby_offline "\UE10C Settings   \UE100 Select   \UE101 Leave"
+savetagchanges
+exit
+edittag ui\halox\common\player_select\strings.unic
+setstring english ranked_matches "Highest Skill: "
+setstring english total_xp "TOTAL EXP: "
+savetagchanges
+exit
 edittag objects\characters\dervish\dervish.hlmt
 setfield shieldimpactthirdperson globals\elite_3p_shield_impact.shit
 setfield shieldimpactfirstperson globals\elite_fp_shield_impact.shit
