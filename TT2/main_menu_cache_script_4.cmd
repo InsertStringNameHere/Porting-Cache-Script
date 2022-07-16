@@ -104,6 +104,20 @@ porttag ui\chud\e_autoturret.chud_definition
 porttag ui\chud\e_invincibility.chud_definition
 porttag ui\chud\e_invisibility.chud_definition
 exit
+opencachefile "../H3MythicMaps/sandbox.map"
+porttag objects\characters\masterchief\mp_masterchief\fp\fp.mode
+porttag objects\characters\masterchief\mp_masterchief\fp_body\fp_body.mode
+porttag objects\characters\masterchief\mp_masterchief\mp_masterchief.bipd
+exit
+opencachefile "../H3Maps/100_citadel.map"
+mergeanimationgraphs
+exit
+opencachefile "../H3MythicMaps/sandbox.map"
+porttag objects\characters\elite\mp_elite\fp\fp.mode
+porttag objects\characters\elite\mp_elite\fp_body\fp_body.mode
+porttag objects\characters\elite\mp_elite\mp_elite.bipd
+porttag objects\characters\monitor\monitor_editor.bipd
+exit
 opencachefile "../H3Maps/100_citadel.map"
 porttag objects\characters\dervish\fp\fp.mode
 porttag objects\characters\dervish\fp_body\fp_body.mode
@@ -115,14 +129,8 @@ porttag objects\characters\masterchief\fp\fp.mode
 porttag objects\characters\masterchief\fp_body\fp_body.mode
 porttag objects\characters\masterchief\masterchief.bipd
 exit
-opencachefile "../H3MythicMaps/sandbox.map"
-porttag objects\characters\elite\mp_elite\fp\fp.mode
-porttag objects\characters\elite\mp_elite\fp_body\fp_body.mode
-porttag objects\characters\elite\mp_elite\mp_elite.bipd
-porttag objects\characters\masterchief\mp_masterchief\fp\fp.mode
-porttag objects\characters\masterchief\mp_masterchief\fp_body\fp_body.mode
-porttag objects\characters\masterchief\mp_masterchief\mp_masterchief.bipd
-porttag objects\characters\monitor\monitor_editor.bipd
+opencachefile "../H3Maps/mainmenu.map"
+mergeanimationgraphs
 exit
 opencachefile "../H3MythicMaps/sandbox.map"
 porttag objects\ui\editor_gizmo\editor_gizmo.scen
