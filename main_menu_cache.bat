@@ -48,18 +48,22 @@ cd ../TT2
 Type main_menu_cache_script_4.cmd | TagTool.exe ../MM/tags.dat
 cd ../TT2
 Type main_menu_cache_script_5.cmd | TagTool.exe ../MM/tags.dat
+cd ../TT2
+Type main_menu_cache_script_fonts.cmd | TagTool.exe ../MM/tags.dat
 GOTO DEBUG
 
 :DEBUG
 ECHO Port Debug Map?
 ECHO 1.Yes
 ECHO 2.No
+ECHO.
 
 CHOICE /C 12 /M "Enter your choice:"
 IF ERRORLEVEL 2 GOTO END
 IF ERRORLEVEL 1 GOTO DEBUG2
 
 :DEBUG2
+ECHO Porting Debug Map....
 cd ../TT2
 Type main_menu_cache_script_debug.cmd | TagTool.exe ../MM/tags.dat
 GOTO END
@@ -67,3 +71,4 @@ GOTO END
 :END
 ECHO Done!
 ECHO Main Menu Cache Generated at "../MM"
+ECHO.
