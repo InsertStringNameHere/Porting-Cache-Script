@@ -61,6 +61,7 @@ exit
 rescalehudtext 0.6 all
 edittag ui\chud\spartan.chud_definition
 setfield hudwidgets[12].textwidgets[0].font SplitscreenHudMessage
+setfield hudwidgets[12].textwidgets[0].placementdata[0].offset 0 32
 setfield hudwidgets[12].textwidgets[0].placementdata[0].scale 1.2 1.2
 setfield hudwidgets[12].textwidgets[1].font SplitscreenHudMessage
 setfield hudwidgets[12].textwidgets[1].placementdata[0].scale 0.8 0.8
@@ -104,5 +105,10 @@ exit
 edittag ui\chud\spartan.chud_definition
 setfield hudwidgets[0].bitmapwidgets[1].placementdata[0].scale 24.28 1
 setfield hudwidgets[2].bitmapwidgets[0].placementdata[0].origin 1.89865 0.999
+savetagchanges
+exit
+edittag ui\chud\spartan_laser.chud_definition
+setfield hudwidgets[3].textwidgets[0].placementdata[0].scale 1.2 1.2
+setfield hudwidgets[3].textwidgets[0].font SplitscreenHudMessage
 savetagchanges
 exit
