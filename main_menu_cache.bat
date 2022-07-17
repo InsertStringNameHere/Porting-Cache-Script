@@ -46,10 +46,20 @@ IF ERRORLEVEL 1 GOTO H3
 ECHO Porting Halo 3 Main Menu....
 cd ../TT2
 Type main_menu_cache_script_4.cmd | TagTool.exe ../MM/tags.dat
-cd ../TT1
-Type main_menu_cache_script_5.cmd | TagTool.exe ../MM/tags.dat
 cd ../TT2
-Type main_menu_cache_script_6.cmd | TagTool.exe ../MM/tags.dat
+Type main_menu_cache_script_5.cmd | TagTool.exe ../MM/tags.dat
+GOTO DEBUG
+
+:DEBUG
+ECHO Port Debug Map?
+ECHO 1.Yes
+ECHO 2.No
+
+CHOICE /C 12 /M "Enter your choice:"
+IF ERRORLEVEL 2 GOTO END
+IF ERRORLEVEL 1 GOTO DEBUG2
+
+:DEBUG2
 cd ../TT2
 Type main_menu_cache_script_debug.cmd | TagTool.exe ../MM/tags.dat
 GOTO END
