@@ -26,7 +26,7 @@ setfield hudwidgets[22].bitmapwidgets[0].statedata[0].consumableflags consumable
 setfield hudwidgets[22].bitmapwidgets[0].placementdata[0].anchor parent
 setfield hudwidgets[22].bitmapwidgets[0].placementdata[0].origin 0 0
 setfield hudwidgets[22].bitmapwidgets[0].placementdata[0].offset 27 100
-setfield hudwidgets[22].bitmapwidgets[0].placementdata[0].scale 2 2
+setfield hudwidgets[22].bitmapwidgets[0].placementdata[0].scale 1 1
 setfield hudwidgets[22].bitmapwidgets[0].animationdata[0].active.animation ui\chud\animations\equipment_kablam.chad
 setfield hudwidgets[22].bitmapwidgets[0].renderdata[0].shadertype simple
 setfield hudwidgets[22].bitmapwidgets[0].renderdata[0].blendmodeho alphablend
@@ -81,12 +81,14 @@ setfield hudwidgets[3].textwidgets[4].font SplitscreenHudMessage
 savetagchanges
 exit
 edittag ui\chud\bitmaps\ballistic_meters.bitmap
-setfield sequences[7].sprites[0].top 0.275625
+setfield sequences[7].sprites[0].top 0.404438
 savetagchanges
 exit
 edittag ui\chud\spartan.chud_definition
-setfield hudwidgets[0].bitmapwidgets[1].placementdata[0].scale 24.28 1
-setfield hudwidgets[2].bitmapwidgets[0].placementdata[0].origin 1.89865 0.999
+setfield hudwidgets[0].bitmapwidgets[1].placementdata[0].scale 12.83 0.5
+setfield hudwidgets[2].bitmapwidgets[0].placementdata[0].origin 1.88675 1
+setfield hudwidgets[2].bitmapwidgets[1].placementdata[0].origin 1.009 1
+setfield hudwidgets[2].bitmapwidgets[1].placementdata[0].scale 0.505 0.5
 savetagchanges
 exit
 edittag ui\chud\spartan_laser.chud_definition

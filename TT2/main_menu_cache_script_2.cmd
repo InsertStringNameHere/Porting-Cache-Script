@@ -370,6 +370,7 @@ setfield hudwidgets[3].textwidgets[0].font hudnumbertext
 setfield hudwidgets[4].textwidgets[0].font hudnumbertext
 setfield hudwidgets[4].textwidgets[1].font hudnumbertext
 setfield hudwidgets[5].bitmapwidgets[8].statedata[0].gamestate FreeForAll,TeamGame,CTF,Slayer,Oddball,KOTH,Juggernaut,Territories,Assault,VIP,Infection,Editor
+setfield hudwidgets[5].bitmapwidgets[8].placementdata[0].scale 1.5 1.5
 setfield hudwidgets[5].textwidgets[0].font hudnumbertext
 setfield hudwidgets[5].textwidgets[1].font hudnumbertext
 setfield hudwidgets[5].textwidgets[2].font hudnumbertext
