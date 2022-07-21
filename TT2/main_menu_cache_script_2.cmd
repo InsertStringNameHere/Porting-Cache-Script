@@ -1,4 +1,4 @@
-opencachefile "../H3Maps/mainmenu.map"
+opencachefile "../H3MCCMaps/mainmenu.map"
 porttag replace single ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
 exit
 edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
@@ -14,7 +14,7 @@ setfield elements[4].stringidvalues[0].value theater
 setfield elements[4].stringidvalues[1].value theater_help
 savetagchanges
 exit
-opencachefile "../H3Maps/100_citadel.map"
+opencachefile "../H3MCCMaps/100_citadel.map"
 porttag replace single ui\chud\globals.chud_globals_definition
 exit
 edittag ui\chud\globals.chud_globals_definition
@@ -24,11 +24,11 @@ setfield hudglobals[0].hudattributes[0].messagescale 1
 setfield hudglobals[0].scoreboardspacingsize 37
 savetagchanges
 exit
-opencachefile "../H3Maps/mainmenu.map"
+opencachefile "../H3MCCMaps/mainmenu.map"
 porttag replace single ui\halox\pregame_lobby\difficulty_large_ui.bitm
 porttag replace single ui\halox\pregame_lobby\selection\films_ui.bitm
 exit
-opencachefile "../H3Maps/mainmenu.map"
+opencachefile "../H3MCCMaps/mainmenu.map"
 porttag replace single ui\halox\common\roster\animations\mp_list_name.gui_widget_animation_collection_definition
 porttag replace single ui\halox\common\roster\animations\mp_name_hilite.gui_widget_animation_collection_definition
 porttag replace single ui\halox\common\roster\animations\rank_hilite.gui_widget_animation_collection_definition
@@ -228,7 +228,7 @@ setfield bitmapwidgets[18].definition.guirenderblock.animationcollection ui\halo
 setfield bitmapwidgets[18].definition.blendmethod alphablend
 savetagchanges
 exit
-opencachefile "../H3Maps/mainmenu.map"
+opencachefile "../H3MCCMaps/mainmenu.map"
 porttag replace single ui\halox\start_menu\ring_o_light.bitmap
 porttag replace single ui\halox\start_menu\common\arrow2_ui.bitmap
 porttag replace single ui\halox\start_menu\common\arrow_ui.bitmap
@@ -261,7 +261,7 @@ edittag ui\halox\start_menu\panes\hq_service_record\identity_strip.grup
 setfield bitmapwidgets[0].definition.bitmap ui\eldewrito\common\common_bitmaps\emblem.bitmap
 savetagchanges
 exit
-opencachefile "../H3Maps/mainmenu.map"
+opencachefile "../H3MCCMaps/mainmenu.map"
 porttag replace single ui\halox\pregame_lobby\selection\network.bitmap
 exit
 edittag ui\halox\start_menu\panes\hq_service_record_file_share\start_menu_hq_service_record_file_share.scn3
@@ -358,7 +358,7 @@ setfield groupwidgets[0].definition.bitmapwidgets[16].definition.bitmap ui\halox
 setfield groupwidgets[0].definition.bitmapwidgets[16].definition.blendmethod alphablend
 savetagchanges
 exit
-opencachefile "../H3MythicMaps/sandbox.map"
+opencachefile "../H3MCCMaps/sandbox.map"
 porttag replace single ui\chud\scoreboard.chud_definition
 exit
 edittag ui\chud\scoreboard.chud_definition
@@ -380,7 +380,7 @@ setfield hudwidgets[8].textwidgets[2].font hudnumbertext
 setfield hudwidgets[8].textwidgets[3].font hudnumbertext
 savetagchanges
 exit
-opencachefile "../H3Maps/mainmenu.map"
+opencachefile "../H3MCCMaps/mainmenu.map"
 porttag replace single ui\halox\main_menu\bottom_gradient_ui.bitmap
 exit
 edittag ui\halox\main_menu\main_menu.scn3

@@ -1,10 +1,10 @@
-opencachefile "../H3Maps/100_citadel.map"
+opencachefile "../H3MCCMaps/100_citadel.map"
 porttag replace single shaders\invalid.shader
 exit
-opencachefile "../H3Maps/100_citadel.map"
+opencachefile "../H3MCCMaps/100_citadel.map"
 porttag ui\single_player.wgtz
 exit
-opencachefile "../H3MythicMaps/sandbox.map"
+opencachefile "../H3MCCMaps/sandbox.map"
 porttag ui\chud\animations\backpack_test.chud_animation_definition
 porttag ui\chud\animations\backpack_unready.chud_animation_definition
 porttag ui\chud\animations\backpack_warning_flash.chud_animation_definition
@@ -43,7 +43,7 @@ porttag ui\chud\animations\vox2.chud_animation_definition
 porttag ui\chud\animations\yaw_slide.chud_animation_definition
 porttag ui\chud\animations\zoom_scope.chud_animation_definition
 exit
-opencachefile "../H3MythicMaps/sandbox.map"
+opencachefile "../H3MCCMaps/sandbox.map"
 porttag ui\chud\assault_rifle.chud_definition
 porttag ui\chud\battle_rifle.chud_definition
 porttag ui\chud\beam_rifle.chud_definition
@@ -99,26 +99,26 @@ porttag ui\chud\v_wraith.chud_definition
 porttag ui\chud\v_wraith_anti_air.chud_definition
 porttag ui\chud\v_wraithturret.chud_definition
 exit
-opencachefile "../H3Maps/100_citadel.map"
+opencachefile "../H3MCCMaps/100_citadel.map"
 porttag ui\chud\e_autoturret.chud_definition
 porttag ui\chud\e_invincibility.chud_definition
 porttag ui\chud\e_invisibility.chud_definition
 exit
-opencachefile "../H3MythicMaps/sandbox.map"
+opencachefile "../H3MCCMaps/sandbox.map"
 porttag objects\characters\masterchief\mp_masterchief\fp\fp.mode
 porttag objects\characters\masterchief\mp_masterchief\fp_body\fp_body.mode
 porttag objects\characters\masterchief\mp_masterchief\mp_masterchief.bipd
 exit
-opencachefile "../H3Maps/100_citadel.map"
+opencachefile "../H3MCCMaps/100_citadel.map"
 mergeanimationgraphs
 exit
-opencachefile "../H3MythicMaps/sandbox.map"
+opencachefile "../H3MCCMaps/sandbox.map"
 porttag objects\characters\elite\mp_elite\fp\fp.mode
 porttag objects\characters\elite\mp_elite\fp_body\fp_body.mode
 porttag objects\characters\elite\mp_elite\mp_elite.bipd
 porttag objects\characters\monitor\monitor_editor.bipd
 exit
-opencachefile "../H3Maps/100_citadel.map"
+opencachefile "../H3MCCMaps/100_citadel.map"
 porttag objects\characters\dervish\fp\fp.mode
 porttag objects\characters\dervish\fp_body\fp_body.mode
 porttag objects\characters\dervish\dervish.bipd
@@ -129,10 +129,10 @@ porttag objects\characters\masterchief\fp\fp.mode
 porttag objects\characters\masterchief\fp_body\fp_body.mode
 porttag objects\characters\masterchief\masterchief.bipd
 exit
-opencachefile "../H3Maps/mainmenu.map"
+opencachefile "../H3MCCMaps/mainmenu.map"
 mergeanimationgraphs
 exit
-opencachefile "../H3MythicMaps/sandbox.map"
+opencachefile "../H3MCCMaps/sandbox.map"
 porttag objects\ui\editor_gizmo\editor_gizmo.scen
 porttag objects\multi\vip\vip_boundary.bloc
 porttag objects\weapons\grenade\claymore_grenade\claymore_grenade.proj
@@ -168,12 +168,12 @@ porttag objects\weapons\support_low\brute_shot\brute_shot.weap
 porttag objects\weapons\turret\flamethrower\flamethrower.weap
 porttag objects\weapons\turret\missile_pod\missile_pod.weap
 exit
-opencachefile "../H3Maps/100_citadel.map"
+opencachefile "../H3MCCMaps/100_citadel.map"
 porttag objects\equipment\instantcover_equipment\instantcover_equipment.eqip
 porttag objects\equipment\invincibility_equipment\invincibility_equipment.eqip
 porttag objects\equipment\invisibility_equipment\invisibility_equipment.eqip
 exit
-opencachefile "../H3MythicMaps/sandbox.map"
+opencachefile "../H3MCCMaps/sandbox.map"
 porttag objects\equipment\bubbleshield_equipment\bubbleshield_equipment.eqip
 porttag objects\equipment\gravlift_equipment\gravlift_equipment.eqip
 porttag objects\equipment\instantcover_equipment\instantcover_equipment_mp.eqip
@@ -183,7 +183,7 @@ porttag objects\equipment\regenerator_equipment\regenerator_equipment.eqip
 porttag objects\equipment\superflare_equipment\superflare_equipment.eqip
 porttag objects\equipment\tripmine_equipment\tripmine_equipment.eqip
 exit
-opencachefile "../H3Maps/120_halo.map"
+opencachefile "../H3MCCMaps/120_halo.map"
 porttag objects\equipment\autoturret_equipment\autoturret_equipment.eqip
 exit
 edittag globals\globals.globals
@@ -398,10 +398,10 @@ setfield textures[40].filename 30
 setfield textures[40].bitmap levels\multi\zanzibar\bitmaps\gfxt.bitmap
 savetagchanges
 exit
-opencachefile "../H3Maps/mainmenu.map"
+opencachefile "../H3MCCMaps/mainmenu.map"
 porttag *.scnr
 exit
-updatemapfilesalt "../H3Maps/info"
+updatemapfilesalt "../H3MCCMaps/info"
 edittag ui\halox\main_menu\main_menu.gui_screen_widget_definition
 setfield scriptindex 47
 savetagchanges

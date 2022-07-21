@@ -1,7 +1,7 @@
-opencachefile "../H3MythicMaps/sandbox.map"
+opencachefile "../H3MCCMaps/sandbox.map"
 porttag *.scnr
 exit
-updatemapfilesalt "../H3MythicMaps/info"
+updatemapfilesalt "../H3MCCMaps/info"
 edittag levels\dlc\sandbox\sandbox.scenario
 addblockelements sandboxvehicles 15
 addblockelements sandboxweapons 15
