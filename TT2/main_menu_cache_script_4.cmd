@@ -1,5 +1,5 @@
 opencachefile "../H3MCCMaps/100_citadel.map"
-porttag replace single shaders\invalid.shader
+porttag shaders\invalid.shader
 exit
 opencachefile "../H3MCCMaps/100_citadel.map"
 porttag ui\single_player.wgtz
