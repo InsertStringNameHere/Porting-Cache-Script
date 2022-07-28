@@ -72,3 +72,6 @@ GOTO END
 ECHO Done!
 ECHO Main Menu Cache Generated at "../MM"
 ECHO.
+ECHO Press enter to exit
+ECHO.
+SET /p input=
