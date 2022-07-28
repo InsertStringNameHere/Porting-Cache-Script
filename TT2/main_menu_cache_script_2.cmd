@@ -385,13 +385,5 @@ porttag replace single ui\halox\main_menu\bottom_gradient_ui.bitmap
 exit
 edittag ui\halox\main_menu\main_menu.scn3
 setfield groupwidgets[0].definition.textwidgets[1].definition.valueidentifier null
-setfield groupwidgets[0].definition.bitmapwidgets[2].definition.flags DoNotApplyOldContentUpscaling,ScaleToFitBounds,RenderAsScreenBlur,AllowListItemToOverrideAnimationSkin
-setfield groupwidgets[0].definition.bitmapwidgets[2].definition.bitmap ui\halox\common\common_bitmaps\black_50.bitmap
-setfield groupwidgets[0].definition.bitmapwidgets[2].definition.blendmethod alphablend
-savetagchanges
-exit
-edittag ui\halox\pregame_lobby\pregame_lobby_template.grup
-setfield bitmapwidgets[2].definition.flags DoNotApplyOldContentUpscaling,ScaleToFitBounds,RenderAsScreenBlur,AllowListItemToOverrideAnimationSkin
-setfield bitmapwidgets[2].definition.blendmethod alphablend
 savetagchanges
 exit
