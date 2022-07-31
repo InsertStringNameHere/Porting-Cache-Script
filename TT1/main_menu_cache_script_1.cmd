@@ -1919,6 +1919,8 @@ nametag 0x573B levels\multi\s3d_edge\bitmap\gfxt
 nametag 0x573C levels\multi\deadlock\bitmap\gfxt
 nametag 0x573D levels\multi\guardian\bitmap\gfxt
 nametag 0x573E levels\multi\s3d_avalanche\bitmap\gfxt
+nametag 0x4481 shaders\default_bitmaps\bitmaps\sparklenoisemap
+nametag 0x4731 shaders\default_bitmaps\bitmaps\color_black_alpha_black
 deletetag 0x09F6
 deletetag 0x0A12
 deletetag 0x0A13
