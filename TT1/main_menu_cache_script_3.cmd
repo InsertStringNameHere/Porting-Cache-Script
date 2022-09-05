@@ -1,2 +1,0 @@
-rebuildcachefiles "../MM"
-quit
