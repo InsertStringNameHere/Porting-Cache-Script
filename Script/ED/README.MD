@@ -2,4 +2,4 @@
 This would incldue either a base MS23 cache or an ElDewrito 0.6 cache, however since I never updated the script to support MS23, the only functional cache would be an ElDewrito 0.6 cache.
 
 File layout should look like:
-![Screenshot](http://raw.github.com/InsertStringNameHere/Main-Menu-Cache-Script/main/Docs/Images/ED.png)
+![Screenshot](https://raw.githubusercontent.com/InsertStringNameHere/Main-Menu-Cache-Script/main/Docs/Images/ED.PNG)
