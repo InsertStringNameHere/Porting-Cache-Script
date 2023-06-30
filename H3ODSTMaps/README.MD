@@ -1,1 +1,0 @@
-# Place Halo 3 ODST Map Files in Here.
